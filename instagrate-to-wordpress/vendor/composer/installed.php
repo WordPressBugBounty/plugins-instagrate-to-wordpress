@@ -3,7 +3,7 @@
         'name' => 'polevaultweb/instagrate-to-wordpress',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '0ed564ea5efa22aa6b4219781c5bd1fe31b7a8ad',
+        'reference' => '774bb2c239106c550f80da3df583b305783a7486',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'polevaultweb/instagrate-to-wordpress' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '0ed564ea5efa22aa6b4219781c5bd1fe31b7a8ad',
+            'reference' => '774bb2c239106c550f80da3df583b305783a7486',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
