@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit30e7de47f26597fd0b73cccad7c43675
+class ComposerStaticInit224d02b32272836ad73283d018cdc094
 {
     public static $prefixLengthsPsr4 = array (
-        'P' => 
+        'P' =>
         array (
             'Polevaultweb\\WPOAuth2\\' => 22,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Polevaultweb\\WPOAuth2\\' => 
+        'Polevaultweb\\WPOAuth2\\' =>
         array (
             0 => __DIR__ . '/..' . '/polevaultweb/wp-oauth2/src',
         ),
@@ -22,14 +22,20 @@ class ComposerStaticInit30e7de47f26597fd0b73cccad7c43675
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Polevaultweb\\WPOAuth2\\AbstractAccessToken' => __DIR__ . '/..' . '/polevaultweb/wp-oauth2/src/AbstractAccessToken.php',
+        'Polevaultweb\\WPOAuth2\\AccessToken' => __DIR__ . '/..' . '/polevaultweb/wp-oauth2/src/AccessToken.php',
+        'Polevaultweb\\WPOAuth2\\AccessTokenInterface' => __DIR__ . '/..' . '/polevaultweb/wp-oauth2/src/AccessTokenInterface.php',
+        'Polevaultweb\\WPOAuth2\\AdminHandler' => __DIR__ . '/..' . '/polevaultweb/wp-oauth2/src/AdminHandler.php',
+        'Polevaultweb\\WPOAuth2\\TokenManager' => __DIR__ . '/..' . '/polevaultweb/wp-oauth2/src/TokenManager.php',
+        'Polevaultweb\\WPOAuth2\\WPOAuth2' => __DIR__ . '/..' . '/polevaultweb/wp-oauth2/src/WPOAuth2.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit30e7de47f26597fd0b73cccad7c43675::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit30e7de47f26597fd0b73cccad7c43675::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit30e7de47f26597fd0b73cccad7c43675::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit224d02b32272836ad73283d018cdc094::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit224d02b32272836ad73283d018cdc094::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit224d02b32272836ad73283d018cdc094::$classMap;
 
         }, null, ClassLoader::class);
     }

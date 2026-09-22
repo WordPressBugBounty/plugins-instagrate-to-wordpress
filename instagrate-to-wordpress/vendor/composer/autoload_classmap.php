@@ -7,4 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Polevaultweb\\WPOAuth2\\AbstractAccessToken' => $vendorDir . '/polevaultweb/wp-oauth2/src/AbstractAccessToken.php',
+    'Polevaultweb\\WPOAuth2\\AccessToken' => $vendorDir . '/polevaultweb/wp-oauth2/src/AccessToken.php',
+    'Polevaultweb\\WPOAuth2\\AccessTokenInterface' => $vendorDir . '/polevaultweb/wp-oauth2/src/AccessTokenInterface.php',
+    'Polevaultweb\\WPOAuth2\\AdminHandler' => $vendorDir . '/polevaultweb/wp-oauth2/src/AdminHandler.php',
+    'Polevaultweb\\WPOAuth2\\TokenManager' => $vendorDir . '/polevaultweb/wp-oauth2/src/TokenManager.php',
+    'Polevaultweb\\WPOAuth2\\WPOAuth2' => $vendorDir . '/polevaultweb/wp-oauth2/src/WPOAuth2.php',
 );

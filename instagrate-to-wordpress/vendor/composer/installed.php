@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'polevaultweb/instagrate-to-wordpress',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => '774bb2c239106c550f80da3df583b305783a7486',
+        'pretty_version' => 'v1.4.1',
+        'version' => '1.4.1.0',
+        'reference' => '9651a33f701b7553893309952ece5e1d5836a35d',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'polevaultweb/instagrate-to-wordpress' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '774bb2c239106c550f80da3df583b305783a7486',
+            'pretty_version' => 'v1.4.1',
+            'version' => '1.4.1.0',
+            'reference' => '9651a33f701b7553893309952ece5e1d5836a35d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
