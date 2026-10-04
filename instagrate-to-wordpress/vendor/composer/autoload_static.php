@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit224d02b32272836ad73283d018cdc094
+class ComposerStaticInitinstagrate_to_wordpress
 {
     public static $prefixLengthsPsr4 = array (
         'P' =>
@@ -33,9 +33,9 @@ class ComposerStaticInit224d02b32272836ad73283d018cdc094
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit224d02b32272836ad73283d018cdc094::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit224d02b32272836ad73283d018cdc094::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit224d02b32272836ad73283d018cdc094::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitinstagrate_to_wordpress::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitinstagrate_to_wordpress::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitinstagrate_to_wordpress::$classMap;
 
         }, null, ClassLoader::class);
     }
